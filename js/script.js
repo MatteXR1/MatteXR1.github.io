@@ -1,5 +1,5 @@
 let typingEffect = new Typed(".multiText", {
-  strings: ["developer", "coder", "designer"],
+  strings: ["developer", "coder", "gamer"],
   loop: true,
   typeSpeed: 100,
   backSpeed: 80,
