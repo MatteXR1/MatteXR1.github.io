@@ -222,5 +222,10 @@ button:hover {
   .links{
     display: none;
   }
-  
+  .logo{
+    display: none;
+  }
+  body{
+    overflow: scroll;
+  }
 }
