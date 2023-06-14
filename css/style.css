@@ -199,3 +199,28 @@ button:hover {
     width: 155%;
   }
 }
+@media screen and (max-width: 1600px) {
+  #splash {
+    display: none;
+  }
+  .imgbox{
+    display: none;
+  }
+  .wrapper::after,
+  .wrapper::before {
+    display: none;
+  }
+  .navItems{
+    position: fixed;
+  }
+  .multiText {
+    background: -webkit-linear-gradient(2deg, #1557ffbb, #e74da7e7, #d46f25);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .links{
+    display: none;
+  }
+  
+}
