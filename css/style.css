@@ -5,9 +5,9 @@
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
 }
- body {
+body {
   overflow: hidden;
-} 
+}
 .container {
   width: 100%;
   min-height: 100vh;
@@ -74,7 +74,7 @@ b {
   border-radius: 50%;
   left: -12%;
   top: 36%;
-  background: linear-gradient(2deg, #1557ffdc, #e74da7e7, #D46F25);
+  background: linear-gradient(2deg, #1557ffdc, #e74da7e7, #d46f25);
   animation: object1 6s linear infinite;
 }
 .wrapper::after {
@@ -85,7 +85,7 @@ b {
   border-radius: 50%;
   left: 35%;
   top: 12%;
-  background: linear-gradient(2deg, #1557ffbb, #e74da7e7, #D46F25);
+  background: linear-gradient(2deg, #1557ffbb, #e74da7e7, #d46f25);
   animation: object2 6s linear infinite;
 }
 @keyframes object1 {
@@ -187,7 +187,7 @@ button:hover {
   top: 50%;
   left: 49%;
   transform: translate(-50%, -50%) rotate(-40deg);
-  
+
   width: 150%;
   filter: saturate(200%);
   animation: animate 4s linear infinite;
