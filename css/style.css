@@ -183,10 +183,11 @@ button:hover {
 .imgbox #splash {
   position: absolute;
   height: 700px;
-  margin-left: 5rem;
+  margin-left: 6.25rem;
   top: 50%;
   left: 49%;
   transform: translate(-50%, -50%) rotate(-40deg);
+  
   width: 150%;
   filter: saturate(200%);
   animation: animate 4s linear infinite;
