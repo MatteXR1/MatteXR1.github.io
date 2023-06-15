@@ -108,7 +108,7 @@ nav {
   width: 50%;
 }
 .cols0 {
-  width: 65%;
+  width: 150%;
   z-index: 5;
 }
 .topline {
@@ -195,7 +195,6 @@ button:hover {
   top: 50%;
   left: 49%;
   transform: translate(-50%, -50%) rotate(-40deg);
-
   width: 150%;
   filter: saturate(200%);
   animation: animate 4s linear infinite;
@@ -207,7 +206,7 @@ button:hover {
     width: 155%;
   }
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1400px) {
   #splash {
     display: none;
   }
@@ -221,6 +220,7 @@ button:hover {
   .navItems {
     position: fixed;
   }
+
   .multiText {
     background: -webkit-linear-gradient(2deg, #1557ffbb, #e74da7e7, #d46f25);
     -webkit-background-clip: text;
@@ -240,17 +240,38 @@ button:hover {
     width: 90%;
     font-size: 10vw;
   }
-  .cols0 {
-    position: absolute;
-    width: 90% !important;
-  }
   .btns {
     position: unset;
   }
+  .imgbox #splash {
+    position: absolute;
+    height: 700px;
+    margin-left: 6.25rem;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%) rotate(-40deg);
+    width: 150%;
+    filter: saturate(200%);
+    animation: animate 4s cubic-bezier(0.54, 0.38, 1, 1.41) infinite;
+  }
+  @keyframes animate {
+    50% {
+      top: 49%;
+      left: 45%;
+      width: 120%;
+    }
+  }
 }
 @media screen and (max-width: 540px) {
+  .wrapper {
+    margin: 0 0.4rem;
+  }
   .topline::after {
     display: none;
+  }
+  .cols0 {
+    position: absolute;
+    width: 100% !important;
   }
   .topline {
     display: flex;
