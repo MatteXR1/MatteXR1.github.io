@@ -329,4 +329,8 @@ button:hover {
   .navItems {
     margin: auto;
   }
+  .btns{
+    display: flex;
+    flex-direction: column;
+  }
 }
