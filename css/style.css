@@ -367,6 +367,10 @@ button:hover {
   }
   .header .log {
     float: left;
+    background: -webkit-linear-gradient(2deg, #1557ffbb, #e74da7e7, #d46f25);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
     font-size: 25px;
     padding: 10px 20px;
