@@ -131,6 +131,7 @@ h1 {
 .multiText {
   color: #7f00ff;
   text-transform: capitalize;
+  word-wrap: break-word;
 }
 p {
   display: block;
@@ -218,6 +219,7 @@ button:hover {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+
   }
   .links{
     display: none;
@@ -227,5 +229,16 @@ button:hover {
   }
   body{
     overflow: scroll;
+  }
+  h1{
+    width: 90%;
+    font-size: 10vw;
+  }
+  .cols0{
+    position: absolute;
+    width: 90% !important; 
+  }
+  .btns{
+    position: unset;
   }
 }
