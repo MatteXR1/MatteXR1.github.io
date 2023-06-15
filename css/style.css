@@ -242,3 +242,16 @@ button:hover {
     position: unset;
   }
 }
+@media screen and (max-width: 540px){
+.wrapper::after{
+  display: flex;
+  left: 30%;
+  height: 4rem;
+  width: 4rem;
+}
+
+
+
+
+
+}
