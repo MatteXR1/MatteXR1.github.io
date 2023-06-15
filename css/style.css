@@ -318,7 +318,7 @@ button:hover {
     position: absolute;
     top: 50px;
     right: 50px;
-    z-index: 1000;
+    z-index: 100;
     -webkit-user-select: none;
     user-select: none;
   }
@@ -331,7 +331,7 @@ button:hover {
     left: -5px;
     cursor: pointer;
     opacity: 0; 
-    z-index: 2; 
+    z-index: 10000; 
     -webkit-touch-callout: none;
   }
   #menuToggle span {
