@@ -13,14 +13,20 @@
 
   <body>
     <div class="container">
-      <nav>
+      <nav role="navigation">
         <div class="logo">folio<b>.</b></div>
-        <ul class="navItems">
-          <li><a href="./index.html">home</a></li>
-          <li><a href="./skills.html">skills</a></li>
-          <li><a href="./projects.html">projects</a></li>
-          <li><a href="./contacts.html">contacts</a></li>
-        </ul>
+        <div id="menuToggle">
+          <input type="checkbox">
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="navItems" id="menu">
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./skills.html">skills</a></li>
+            <li><a href="./projects.html">projects</a></li>
+            <li><a href="./contacts.html">contacts</a></li>
+          </ul>
+        </div>
         <div class="links">
           <a href="" target="_blank" title=""
             ><i class="fab fa-linkedin"></i
