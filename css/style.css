@@ -11,6 +11,9 @@ body {
 .header {
   display: none;
 }
+.linksF{
+  display: none;
+}
 .container {
   width: 100%;
   min-height: 100vh;
@@ -429,5 +432,17 @@ button:hover {
   .header .menu-btn:checked ~ .menu-icon .nav-icon::after {
     transform: rotate(45deg);
     top: 0;
+  }
+  .linksF{
+    display: flex;
+    justify-content: space-around;
+  }
+  .linksF a:hover {
+    color: #7f00ff;
+  }
+  .linksF a {
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
   }
 }
