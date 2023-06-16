@@ -344,7 +344,7 @@ button:hover {
   }
   .header {
     display: block;
-    background-color: #232b30;
+    background-color: #232b30e9;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -354,7 +354,8 @@ button:hover {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #232b30;
+    background-color: #6578a25d;
+    
   }
   .header ul a {
     display: block;
@@ -366,7 +367,9 @@ button:hover {
     background-color: #181818;
   }
   .header .log {
+    width: 85%;
     float: left;
+    
     background: -webkit-linear-gradient(2deg, #1557ffbb, #e74da7e7, #d46f25);
     -webkit-background-clip: text;
     background-clip: text;
@@ -381,6 +384,7 @@ button:hover {
     transition: max-height 0.2s ease-out;
   }
   .header .menu-icon {
+    width: 15%;
     padding: 28px 20px;
     position: relative;
     float: right;
