@@ -360,11 +360,10 @@ button:hover {
   .header ul a {
     display: block;
     padding: 20px;
-    border-right: 1px solid red;
     text-decoration: none;
   }
   .header ul a:hover {
-    background-color: #181818;
+    background-color: #7f00ff;
   }
   .header .log {
     width: 85%;
